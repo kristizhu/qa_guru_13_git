@@ -7,15 +7,15 @@ public class FirstTest {
 
     @Test
     void FirstTest() {
-        Assertions.assertTrue(3 >= 0);
+        Assertions.assertFalse(3 <= 0);
 
     }
     @Test
     void SecondTest() {
-        Assertions.assertTrue(3 >= 1);
+        Assertions.assertFalse(3<=1);
     }
     @Test
     void ThirdTest() {
-        Assertions.assertTrue(3 >= 2);
+        Assertions.assertFalse(3 <= 2);
     }
 }
