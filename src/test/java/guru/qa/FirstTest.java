@@ -11,7 +11,11 @@ public class FirstTest {
 
     }
     @Test
-    void secondTest() {
+    void SecondTest() {
         Assertions.assertTrue(3 >= 1);
+    }
+    @Test
+    void ThirdTest() {
+        Assertions.assertTrue(3 >= 2);
     }
 }
